@@ -214,7 +214,7 @@ public class MainActivity extends Activity implements SensorEventListener {
         rollingaverage_gyro_x = (float)Math.sqrt((double)rollingaverage_gyro_x/10f);
         rollingaverage_gyro_y = (float)Math.sqrt((double)rollingaverage_gyro_y/10f);
         rollingaverage_gyro_z = (float)Math.sqrt((double)rollingaverage_gyro_z/10f);
-        rollingaverage_acc_x = (float)Math.sqrt((double)rollingaverage_acc_x/10f);
+        rollingaverage_acc_x =  git (float)Math.sqrt((double)rollingaverage_acc_x/10f);
         rollingaverage_acc_y = (float)Math.sqrt((double)rollingaverage_acc_y/10f);
         rollingaverage_acc_z = (float)Math.sqrt((double)rollingaverage_acc_z/10f);
         RequestQueue queue = Volley.newRequestQueue(MainActivity.this);
